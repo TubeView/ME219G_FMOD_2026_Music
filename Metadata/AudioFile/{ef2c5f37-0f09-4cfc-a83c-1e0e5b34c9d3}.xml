@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{ef2c5f37-0f09-4cfc-a83c-1e0e5b34c9d3}">
 		<property name="assetPath">
-			<value>LoMImplementationFlute.wav</value>
+			<value>Music/LoMImplementationFlute.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
