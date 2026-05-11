@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{1f9b3410-e7c0-4cb3-98c8-e0c634c855a8}">
+	<object class="AudioFile" id="{d1ecb4c3-3637-4c5d-abad-adbce627fcb9}">
 		<property name="assetPath">
-			<value>Music/LoMImplementationPiano.wav</value>
+			<value>Music/Overground_Zone_1-3/LoMImplementation1_The_Explorer_65BPM_34_Overground_Drums.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
@@ -14,7 +14,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>22.153854875283447</value>
+			<value>24.923083900226757</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>
