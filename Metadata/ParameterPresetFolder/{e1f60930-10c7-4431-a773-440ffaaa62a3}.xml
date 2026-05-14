@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPresetFolder" id="{e1f60930-10c7-4431-a773-440ffaaa62a3}">
+		<property name="name">
+			<value>Boss Battle Parameters</value>
+		</property>
+		<relationship name="folder">
+			<destination>{3ef51aeb-5545-4625-9765-aa9a29f474f7}</destination>
+		</relationship>
+	</object>
+</objects>

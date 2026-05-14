@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{41d54975-22ce-4d75-9ac8-2f9de1f653ba}">
+		<property name="name">
+			<value>BossPhase</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e1f60930-10c7-4431-a773-440ffaaa62a3}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a52a037c-a49d-4192-b649-1f7cf845c137}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a52a037c-a49d-4192-b649-1f7cf845c137}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>
