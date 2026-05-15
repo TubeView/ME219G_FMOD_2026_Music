@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{b0ae3a94-708d-40c9-8a3e-1998e3b8093f}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
+		<property name="name">
+			<value>Boss Fight</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{b42e4208-9acf-4c28-a504-27868fdf3ae3}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{7774b2bc-dc14-4efa-b147-98b22e8399b2}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{63720410-e6d9-4197-97d2-4f3a2d8ba4c6}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{b42e4208-9acf-4c28-a504-27868fdf3ae3}">
+		<relationship name="effects">
+			<destination>{8241640c-6c63-404e-a84e-3bc97d91e053}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{7774b2bc-dc14-4efa-b147-98b22e8399b2}" />
+	<object class="MixerBusFader" id="{8241640c-6c63-404e-a84e-3bc97d91e053}" />
+</objects>

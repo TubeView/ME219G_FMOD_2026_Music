@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{bbe351f6-5c4c-4bd9-b5c6-47338fc04d41}">
+		<property name="name">
+			<value>IsStunned</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e1f60930-10c7-4431-a773-440ffaaa62a3}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{69fde6a3-5ca1-4150-ae9b-7f3397b835d7}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{69fde6a3-5ca1-4150-ae9b-7f3397b835d7}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{cd4cf1e5-db5f-4700-b807-29fd433706a7}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{cd4cf1e5-db5f-4700-b807-29fd433706a7}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.75</value>
+		</property>
+	</object>
+</objects>
