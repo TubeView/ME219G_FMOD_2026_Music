@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{b85632b7-b385-4f75-9cc6-a619b20ff825}">
 		<property name="assetPath">
-			<value>Music/Underground_Zone_4/LoMImplementation1_The_Explorer_65BPM_54_Underground_Cello.wav</value>
+			<value>Music/Underground_65BPM_54/LoMImplementation1_The_Explorer_65BPM_54_Underground_Cello.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="EncodableAsset" id="{e4f7c80d-3b55-4798-a9f6-070edcf9a7b0}">
 		<property name="assetPath">
-			<value>Music/Overground_Zone_1-3/</value>
+			<value>Music/Overground_65BPM_34/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>

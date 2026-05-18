@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{5bd5dd37-c2b2-44b0-aa86-7add731ca696}">
 		<property name="assetPath">
-			<value>Music/BossFight_100BPM_44_Electric_Guitar/LoMImplementation1_BossFight_100BPM_44_Keys.wav</value>
+			<value>Music/BossFight_100BPM_44/LoMImplementation1_BossFight_100BPM_44_Keys.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{56fc642e-7f1f-4a71-af09-7e0919f37a75}">
 		<property name="assetPath">
-			<value>Music/GameOver_65BPM_44/LoMImplementation1_GameOver_65BPN_44_Drums.wav</value>
+			<value>Music/GameOver_65BPM_44/LoMImplementation1_GameOver_65BPM_44_Drums.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

@@ -1046,9 +1046,6 @@
 		<property name="maximum">
 			<value>1</value>
 		</property>
-		<property name="isInverted">
-			<value>true</value>
-		</property>
 		<relationship name="parameter">
 			<destination>{69fde6a3-5ca1-4150-ae9b-7f3397b835d7}</destination>
 		</relationship>
