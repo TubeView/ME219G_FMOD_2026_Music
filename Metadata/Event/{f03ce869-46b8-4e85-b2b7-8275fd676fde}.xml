@@ -708,7 +708,7 @@
 	</object>
 	<object class="SnapshotModule" id="{d4b7e1fb-4811-4467-9575-56e8cfdaf878}">
 		<property name="length">
-			<value>88.799999999999983</value>
+			<value>124.8</value>
 		</property>
 		<relationship name="triggerConditions">
 			<destination>{26961486-97dd-4a61-ad1f-3daa73e31936}</destination>
@@ -1046,6 +1046,9 @@
 		<property name="maximum">
 			<value>1</value>
 		</property>
+		<property name="isInverted">
+			<value>true</value>
+		</property>
 		<relationship name="parameter">
 			<destination>{69fde6a3-5ca1-4150-ae9b-7f3397b835d7}</destination>
 		</relationship>
@@ -1319,7 +1322,7 @@
 		</relationship>
 		<relationship name="automationPoints">
 			<destination>{0ef169e0-de74-4634-a67d-b8fc93ad5539}</destination>
-			<destination>{b514aa8b-73ac-47e2-8040-d061f7c9bfd9}</destination>
+			<destination>{e4e69882-253f-419f-bed3-56062840cdbb}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{570652b2-f0fe-4486-bb6b-4ab7403a8c92}" />
@@ -1328,18 +1331,18 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>0</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.125855938</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{b514aa8b-73ac-47e2-8040-d061f7c9bfd9}">
+	<object class="AutomationPoint" id="{e4e69882-253f-419f-bed3-56062840cdbb}">
 		<property name="position">
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-80</value>
 		</property>
 	</object>
 </objects>
