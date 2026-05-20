@@ -4,9 +4,6 @@
 		<property name="assetPath">
 			<value>Music/Underground_65BPM_54/LoMImplementation1_The_Explorer_65BPM_54_Underground_Harp.wav</value>
 		</property>
-		<property name="isStreaming">
-			<value>true</value>
-		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
 		</property>

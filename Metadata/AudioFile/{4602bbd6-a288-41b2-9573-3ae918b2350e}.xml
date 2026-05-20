@@ -4,9 +4,6 @@
 		<property name="assetPath">
 			<value>Music/Overground_65BPM_34/LoMImplementation1_The_Explorer_65BPM_34_Overground_Lead.wav</value>
 		</property>
-		<property name="isStreaming">
-			<value>true</value>
-		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
 		</property>
