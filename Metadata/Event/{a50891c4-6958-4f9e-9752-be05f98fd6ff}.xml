@@ -11,7 +11,7 @@
 			<value>0</value>
 		</property>
 		<relationship name="folder">
-			<destination>{2118ab9f-5fbe-4770-ab21-2b23523544a6}</destination>
+			<destination>{aa04b59c-7380-4696-95f0-e300255f5ef7}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{4248d9e1-55d8-4fd5-a45c-3a30fc82cf0c}</destination>
@@ -59,10 +59,19 @@
 			<destination>{00be4cd3-8fba-4f7e-aaf8-b885aa77bed3}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{63720410-e6d9-4197-97d2-4f3a2d8ba4c6}</destination>
+			<destination>{a54973fc-d6ba-4f32-aafd-41dba7be9536}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{177ecf63-dd04-48c2-9fc5-5f0e5b3d8c48}">
+		<property name="isPersistent">
+			<value>true</value>
+		</property>
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+		<property name="minimumDistance">
+			<value>6</value>
+		</property>
 		<property name="maximumDistance">
 			<value>10</value>
 		</property>
@@ -132,13 +141,13 @@
 	<object class="MixerBusFader" id="{553d98b6-d4cb-44f2-9cbb-71b7de1799a5}" />
 	<object class="AutomationPoint" id="{4cb6c446-fabc-4085-bd79-c08be4f6828d}">
 		<property name="position">
-			<value>0.0024630541871921183</value>
+			<value>0.00098522167487684743</value>
 		</property>
 		<property name="value">
 			<value>0</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.69177556</value>
+			<value>0.0298310183</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{80111d7c-1a0b-4969-832c-5de14e52b117}">

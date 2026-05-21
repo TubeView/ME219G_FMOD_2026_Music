@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{ece86966-18ea-4b88-8518-0dd006d4b09a}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="name">
 			<value>Stinger</value>
 		</property>
@@ -11,7 +14,7 @@
 			<destination>{f9e3c40a-0697-4dc5-a66c-5b4a027357f8}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{63720410-e6d9-4197-97d2-4f3a2d8ba4c6}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{299c132d-5e71-4d65-851c-397df9c25fee}">

@@ -11,7 +11,7 @@
 			<value>0</value>
 		</property>
 		<relationship name="folder">
-			<destination>{2118ab9f-5fbe-4770-ab21-2b23523544a6}</destination>
+			<destination>{aa04b59c-7380-4696-95f0-e300255f5ef7}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{b3b2a03a-ee40-44e4-854d-e3750132e507}</destination>
@@ -59,12 +59,21 @@
 			<destination>{b9121448-ba46-49bf-b41e-3f984aecbe3b}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{63720410-e6d9-4197-97d2-4f3a2d8ba4c6}</destination>
+			<destination>{a54973fc-d6ba-4f32-aafd-41dba7be9536}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{4a5a3e6d-7f7a-45bc-a18a-2eb3bbadb4c4}">
+		<property name="isPersistent">
+			<value>true</value>
+		</property>
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+		<property name="minimumDistance">
+			<value>8</value>
+		</property>
 		<property name="maximumDistance">
-			<value>10</value>
+			<value>12</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{17f16275-952e-4f08-a71b-cc0ffd6c14a4}" />
@@ -77,6 +86,9 @@
 	<object class="EventMixerMaster" id="{b2daa8f8-4f8c-421c-ae44-ab758b325ba4}">
 		<relationship name="automators">
 			<destination>{bc99df35-4345-43e9-b7ff-e15ea3a4f257}</destination>
+		</relationship>
+		<relationship name="modulators">
+			<destination>{ad377ffa-a2de-4565-a788-8a51b5ef5ab9}</destination>
 		</relationship>
 		<relationship name="effectChain">
 			<destination>{7a974bc1-3a25-4329-9123-70b371a2bc17}</destination>
@@ -107,6 +119,14 @@
 			<destination>{7555206d-6dc4-4d7d-b5cf-ce91c6095e27}</destination>
 		</relationship>
 	</object>
+	<object class="SeekModulator" id="{ad377ffa-a2de-4565-a788-8a51b5ef5ab9}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.59999996423721313</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{7a974bc1-3a25-4329-9123-70b371a2bc17}">
 		<relationship name="effects">
 			<destination>{b423c1b6-7e44-4101-95c0-dee08aef4440}</destination>
@@ -121,7 +141,7 @@
 		</relationship>
 		<relationship name="automationPoints">
 			<destination>{81d6ed49-e94b-4e5e-b14e-58b7ad2c5ca9}</destination>
-			<destination>{bb331e3e-c929-47b6-afb2-bd0616e98e26}</destination>
+			<destination>{8fbef056-1969-4410-a77b-7066ed4fcf1c}</destination>
 		</relationship>
 	</object>
 	<object class="TransceiverEffect" id="{b423c1b6-7e44-4101-95c0-dee08aef4440}">
@@ -138,10 +158,10 @@
 			<value>0</value>
 		</property>
 		<property name="curveShape">
-			<value>-0.605251849</value>
+			<value>1</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{bb331e3e-c929-47b6-afb2-bd0616e98e26}">
+	<object class="AutomationPoint" id="{8fbef056-1969-4410-a77b-7066ed4fcf1c}">
 		<property name="position">
 			<value>1</value>
 		</property>

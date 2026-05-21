@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{8220b173-f459-44c3-b741-f4536783e500}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="name">
 			<value>Stinger_KeyPickUp</value>
 		</property>
@@ -8,7 +11,7 @@
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{971eb377-adbc-4d6a-bbb0-93fde4e31c19}</destination>
+			<destination>{2118ab9f-5fbe-4770-ab21-2b23523544a6}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{e1b990dd-8896-4b80-82e1-057b5b3d7aee}</destination>
