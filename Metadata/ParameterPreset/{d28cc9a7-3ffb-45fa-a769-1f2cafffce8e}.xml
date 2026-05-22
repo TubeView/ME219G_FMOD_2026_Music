@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{d28cc9a7-3ffb-45fa-a769-1f2cafffce8e}">
 		<property name="name">
-			<value>OvergroundZoneProgression</value>
+			<value>ZoneProgression</value>
 		</property>
 		<relationship name="folder">
 			<destination>{3ef51aeb-5545-4625-9765-aa9a29f474f7}</destination>
@@ -15,14 +15,8 @@
 		<property name="maximum">
 			<value>3</value>
 		</property>
-		<property name="isGlobal">
-			<value>true</value>
-		</property>
 		<property name="initialValue">
 			<value>0</value>
-		</property>
-		<property name="isExposedRecursively">
-			<value>false</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{74ba30af-7293-48f8-b750-ce7b376b0839}</destination>
