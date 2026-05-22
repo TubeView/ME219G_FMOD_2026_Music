@@ -412,7 +412,7 @@
 	</object>
 	<object class="SnapshotModule" id="{edeb1dc2-9a59-4565-897c-686f3cdde800}">
 		<property name="length">
-			<value>33.230770833333331</value>
+			<value>33.230770975056693</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{2f1bfad7-aae7-4adb-a56c-16f41103b6ed}</destination>
@@ -865,7 +865,7 @@
 	<object class="MixerBusFader" id="{f7dd3c88-8c29-4745-9d04-9ba4ba754234}" />
 	<object class="AutomationPoint" id="{9ba0061a-29e9-4cbf-b465-8b0b38d711ed}">
 		<property name="position">
-			<value>29.538458333333324</value>
+			<value>29.538458475056686</value>
 		</property>
 		<property name="value">
 			<value>100</value>
@@ -876,7 +876,7 @@
 	</object>
 	<object class="AutomationPoint" id="{63c27f1b-6547-48f7-8012-85bd94137967}">
 		<property name="position">
-			<value>33.230770833333331</value>
+			<value>33.230770975056693</value>
 		</property>
 		<property name="value">
 			<value>0</value>
