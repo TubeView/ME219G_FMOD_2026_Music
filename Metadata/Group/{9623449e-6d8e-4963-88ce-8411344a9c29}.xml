@@ -11,7 +11,7 @@
 			<value>Enemies</value>
 		</property>
 		<relationship name="masters">
-			<destination>{49008735-c805-4f17-a3ca-a52315afde1d}</destination>
+			<destination>{ff39deef-0bdf-4fa9-9577-8b82cd4d5342}</destination>
 		</relationship>
 		<relationship name="effectChain">
 			<destination>{812e26e0-9fa6-4aa5-8c96-3bb397349e86}</destination>

@@ -11,7 +11,7 @@
 			<value>Ambiance</value>
 		</property>
 		<relationship name="masters">
-			<destination>{49708213-231b-4999-88c8-1021fbfdd8f7}</destination>
+			<destination>{ff39deef-0bdf-4fa9-9577-8b82cd4d5342}</destination>
 		</relationship>
 		<relationship name="effectChain">
 			<destination>{43b90b0e-4fd7-4d51-86a3-3f096732c04c}</destination>

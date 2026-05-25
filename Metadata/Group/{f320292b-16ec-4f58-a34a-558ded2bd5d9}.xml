@@ -11,7 +11,7 @@
 			<value>Player</value>
 		</property>
 		<relationship name="masters">
-			<destination>{06efa5b7-38cb-471a-b4c6-f918fe732e6c}</destination>
+			<destination>{ff39deef-0bdf-4fa9-9577-8b82cd4d5342}</destination>
 		</relationship>
 		<relationship name="effectChain">
 			<destination>{0e95ab4c-6350-46a7-ae5f-dd294276f62f}</destination>

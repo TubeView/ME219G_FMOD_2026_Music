@@ -11,7 +11,7 @@
 			<value>Music</value>
 		</property>
 		<relationship name="masters">
-			<destination>{4abe8475-f0de-485b-a714-1ed1dc84aba8}</destination>
+			<destination>{fc27ffc1-5dd9-470c-8af9-fb270970e721}</destination>
 		</relationship>
 		<relationship name="effectChain">
 			<destination>{6c35855a-0428-476d-9034-faf4cb0302e6}</destination>

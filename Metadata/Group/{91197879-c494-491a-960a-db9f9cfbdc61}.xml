@@ -11,7 +11,7 @@
 			<value>UI</value>
 		</property>
 		<relationship name="masters">
-			<destination>{79044590-2f66-46c7-9118-4c2e12a64591}</destination>
+			<destination>{ff39deef-0bdf-4fa9-9577-8b82cd4d5342}</destination>
 		</relationship>
 		<relationship name="effectChain">
 			<destination>{0c4034d1-344e-4a1c-988b-5c9a5f9970f3}</destination>

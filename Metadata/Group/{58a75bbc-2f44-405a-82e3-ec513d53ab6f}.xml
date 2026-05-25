@@ -11,7 +11,7 @@
 			<value>Interactables</value>
 		</property>
 		<relationship name="masters">
-			<destination>{d00bb108-bd32-48da-a0eb-98fb76a17da7}</destination>
+			<destination>{ff39deef-0bdf-4fa9-9577-8b82cd4d5342}</destination>
 		</relationship>
 		<relationship name="effectChain">
 			<destination>{12ea139f-c094-48af-9772-7f5689842b3d}</destination>
