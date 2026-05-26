@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{1e42a625-1b2f-4f1e-8360-50a25c60ca99}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
+		<property name="name">
+			<value>Indoor Cave</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{1c56a3be-583a-4579-b2da-b618d564c742}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{5ed1f7a5-7740-4735-b0b2-08ad5913d1de}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{43163830-abf1-4785-8f5c-3fc8fad82bd8}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{1c56a3be-583a-4579-b2da-b618d564c742}">
+		<relationship name="effects">
+			<destination>{ff9e8ad6-39d6-43f0-9593-c54330f53b2c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{5ed1f7a5-7740-4735-b0b2-08ad5913d1de}" />
+	<object class="MixerBusFader" id="{ff9e8ad6-39d6-43f0-9593-c54330f53b2c}" />
+</objects>
