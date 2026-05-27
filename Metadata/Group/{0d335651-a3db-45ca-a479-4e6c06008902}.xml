@@ -4,8 +4,11 @@
 		<property name="color">
 			<value>Green</value>
 		</property>
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<property name="name">
-			<value>Attack &amp; Shoot</value>
+			<value>Attack</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{49e61cb9-de1f-4968-a491-6b5dd722d12b}</destination>

@@ -71,7 +71,7 @@
 			<destination>{e44b7a57-8be7-4a35-b61a-d9e8694299c9}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{a54973fc-d6ba-4f32-aafd-41dba7be9536}</destination>
+			<destination>{7ffe3d4a-6ff4-469f-9ac9-1f2cb5a9e320}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{0fad0ae9-3712-4d7d-a2f0-bb55681c061b}" />
@@ -482,15 +482,15 @@
 	</object>
 	<object class="TransitionSourceSound" id="{07975862-374e-4536-8770-07e6e8ce2f2e}">
 		<property name="length">
-			<value>0</value>
+			<value>1.1102230246251565e-16</value>
 		</property>
 	</object>
 	<object class="TransitionDestinationSound" id="{f03a202a-2292-4190-ba60-fc774c52f9f3}">
 		<property name="start">
-			<value>4.6153846153846159</value>
+			<value>5.5511151231257827e-17</value>
 		</property>
 		<property name="length">
-			<value>0</value>
+			<value>4.6153846153846159</value>
 		</property>
 	</object>
 	<object class="SingleSound" id="{c1412082-dde3-45ae-9a24-32d81793632e}">

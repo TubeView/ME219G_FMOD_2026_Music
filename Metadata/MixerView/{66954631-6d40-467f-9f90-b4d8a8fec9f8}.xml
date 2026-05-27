@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="UiMixerView" id="{66954631-6d40-467f-9f90-b4d8a8fec9f8}">
+		<property name="name">
+			<value>Enemies</value>
+		</property>
+		<relationship name="assignedStrips">
+			<destination>{a54973fc-d6ba-4f32-aafd-41dba7be9536}</destination>
+			<destination>{ece86966-18ea-4b88-8518-0dd006d4b09a}</destination>
+			<destination>{d1ddc4c3-3dc0-403f-9f02-d04538f074e1}</destination>
+			<destination>{0547fa2e-9229-42e7-946a-50a6f8305a8a}</destination>
+			<destination>{b0ae3a94-708d-40c9-8a3e-1998e3b8093f}</destination>
+			<destination>{63720410-e6d9-4197-97d2-4f3a2d8ba4c6}</destination>
+			<destination>{059e1bc3-00ce-4053-8b26-1434051708d8}</destination>
+			<destination>{7ffe3d4a-6ff4-469f-9ac9-1f2cb5a9e320}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{cf6fa574-15a6-418b-a5cd-cd7d92939021}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{059e1bc3-00ce-4053-8b26-1434051708d8}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
+		<property name="name">
+			<value>Overground</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{39a9a6c9-c0e6-4596-91e2-13cbea944a17}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{0d8afa8f-aaf4-4461-841f-8a22f7b3fdd0}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{a54973fc-d6ba-4f32-aafd-41dba7be9536}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{39a9a6c9-c0e6-4596-91e2-13cbea944a17}">
+		<relationship name="effects">
+			<destination>{af804f29-266c-4755-bbfa-628f1201dd64}</destination>
+			<destination>{f02ebdc8-995d-4329-a4e4-e2fb41492dd0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{0d8afa8f-aaf4-4461-841f-8a22f7b3fdd0}" />
+	<object class="MixerBusFader" id="{af804f29-266c-4755-bbfa-628f1201dd64}" />
+	<object class="GainEffect" id="{f02ebdc8-995d-4329-a4e4-e2fb41492dd0}" />
+</objects>

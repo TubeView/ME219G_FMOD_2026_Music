@@ -69,7 +69,7 @@
 			<destination>{b15d93b1-5e2c-4640-8991-444fac0d228e}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{a54973fc-d6ba-4f32-aafd-41dba7be9536}</destination>
+			<destination>{059e1bc3-00ce-4053-8b26-1434051708d8}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{4361a5b5-cd6e-4248-8063-b39c74c189ee}">
@@ -346,6 +346,9 @@
 		</relationship>
 	</object>
 	<object class="TransceiverEffect" id="{09aac499-e049-4949-b47e-47e11e5774f5}">
+		<property name="level">
+			<value>3</value>
+		</property>
 		<property name="channel">
 			<value>1</value>
 		</property>

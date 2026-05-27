@@ -179,6 +179,7 @@
 		<relationship name="effects">
 			<destination>{6e1e103e-1e04-4db4-a3c6-25f63a0daa32}</destination>
 			<destination>{2b31c450-1ff8-402c-9389-0a72fd8bcf25}</destination>
+			<destination>{24384947-f036-4b78-818a-56c44288bf64}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{533afd40-41ed-442c-9522-388e735430e5}" />
@@ -258,6 +259,11 @@
 	<object class="SpatialiserEffect" id="{2b31c450-1ff8-402c-9389-0a72fd8bcf25}">
 		<property name="maximumDistance">
 			<value>10</value>
+		</property>
+	</object>
+	<object class="GainEffect" id="{24384947-f036-4b78-818a-56c44288bf64}">
+		<property name="gain">
+			<value>2.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{2901592e-95bb-4afa-a1d7-fcaf838fa0f2}">
