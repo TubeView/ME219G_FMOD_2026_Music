@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{f49b3867-2db7-46ee-bdce-aa665fbfb19d}">
+	<object class="AudioFile" id="{b9bb027d-924b-4ca4-aafc-92e20a4de455}">
 		<property name="assetPath">
-			<value>Music/Stingers/LoMImplementation1_StingerJingle_Dm_Octave4.wav</value>
+			<value>Music/Stingers/LoMImplementation1_StingerJingle_Dm_Octave3.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
