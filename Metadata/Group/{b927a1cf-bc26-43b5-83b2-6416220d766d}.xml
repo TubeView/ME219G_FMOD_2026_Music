@@ -8,7 +8,7 @@
 			<value>-3.5</value>
 		</property>
 		<property name="name">
-			<value>Triggers (Name Subject to Change)</value>
+			<value>Switches</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{9ed48681-a5a2-430a-99c2-a83d0dfdce30}</destination>
