@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{959a5329-c4d7-4a11-a8f8-805931672c87}">
+		<property name="name">
+			<value>EndFlute</value>
+		</property>
+		<relationship name="folder">
+			<destination>{c6410ca1-23be-44a3-ad12-e2059ebaec0d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{92885749-b921-499d-942b-27974e316ad2}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{92885749-b921-499d-942b-27974e316ad2}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
