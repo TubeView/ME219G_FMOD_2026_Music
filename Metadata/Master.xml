@@ -21,6 +21,7 @@
 		<relationship name="effects">
 			<destination>{ca4cf200-bb60-4b77-8454-44ca2bf69d55}</destination>
 			<destination>{c56d5861-44d5-4e1c-a1ea-d6e7bed0a77c}</destination>
+			<destination>{7a27c818-8adc-4194-ab40-3adfdcfb75e0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{965d82e7-bcd0-4ac9-af71-bf1e207592ad}">
@@ -35,6 +36,11 @@
 		</property>
 		<property name="qualityA">
 			<value>0.775642395</value>
+		</property>
+	</object>
+	<object class="ChannelMixEffect" id="{7a27c818-8adc-4194-ab40-3adfdcfb75e0}">
+		<property name="outputGrouping">
+			<value>2</value>
 		</property>
 	</object>
 </objects>
