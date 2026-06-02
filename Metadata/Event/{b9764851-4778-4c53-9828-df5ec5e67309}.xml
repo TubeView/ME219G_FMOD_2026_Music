@@ -97,7 +97,6 @@
 			<destination>{fcf94005-82a8-4143-9b28-b79013d254a2}</destination>
 			<destination>{23dd314d-bec3-4b98-b598-73b71ba5e9e3}</destination>
 			<destination>{abff4152-58dc-40f3-b349-e4c268343d59}</destination>
-			<destination>{45c77238-1212-47cb-abeb-7977b6e7be16}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{3dd6fdc6-55eb-4d56-a442-cafef54796c6}">
@@ -221,20 +220,6 @@
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{8b27f202-7c00-4915-aa67-f13023c322b9}</destination>
-		</relationship>
-	</object>
-	<object class="NamedMarker" id="{45c77238-1212-47cb-abeb-7977b6e7be16}">
-		<property name="position">
-			<value>0.92308333333333337</value>
-		</property>
-		<property name="name">
-			<value>Continue</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{903e585d-3c0d-46cb-9aa5-be699ed0bf98}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{fc6b3b8f-15cc-4770-a6c7-f90e1946a0b2}</destination>
 		</relationship>
 	</object>
 	<object class="Automator" id="{caedc04e-474c-4ea1-a3b2-a1d7f43829e8}">

@@ -126,9 +126,6 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{3018a7c2-9076-4f25-b935-a564f8c2bff7}">
-		<relationship name="automationTracks">
-			<destination>{0a7d7eb2-607f-4ee5-9d86-966dcff87b56}</destination>
-		</relationship>
 		<relationship name="modules">
 			<destination>{4e7402f8-2383-413d-8905-acd6688fe371}</destination>
 			<destination>{8fdde50b-1d5e-4347-a50f-84a59ca625ca}</destination>
@@ -384,11 +381,6 @@
 			<destination>{5878ef5e-37a1-49e4-a7a6-468513a44200}</destination>
 		</relationship>
 	</object>
-	<object class="AutomationTrack" id="{0a7d7eb2-607f-4ee5-9d86-966dcff87b56}">
-		<relationship name="automator">
-			<destination>{9cd1ca6d-2141-4563-8c51-31723fb1208c}</destination>
-		</relationship>
-	</object>
 	<object class="TransitionSourceSound" id="{4e7402f8-2383-413d-8905-acd6688fe371}">
 		<property name="length">
 			<value>1.4118988416384615</value>
@@ -420,9 +412,6 @@
 		<property name="name">
 			<value>Flute</value>
 		</property>
-		<relationship name="automators">
-			<destination>{9cd1ca6d-2141-4563-8c51-31723fb1208c}</destination>
-		</relationship>
 		<relationship name="effectChain">
 			<destination>{3974ce8b-0a3e-42e8-bab0-69ea3c67c361}</destination>
 		</relationship>
@@ -665,11 +654,6 @@
 		<relationship name="relatedModule">
 			<destination>{4e7402f8-2383-413d-8905-acd6688fe371}</destination>
 		</relationship>
-	</object>
-	<object class="Automator" id="{9cd1ca6d-2141-4563-8c51-31723fb1208c}">
-		<property name="nameOfPropertyBeingAutomated">
-			<value>volume</value>
-		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{3974ce8b-0a3e-42e8-bab0-69ea3c67c361}">
 		<relationship name="effects">
