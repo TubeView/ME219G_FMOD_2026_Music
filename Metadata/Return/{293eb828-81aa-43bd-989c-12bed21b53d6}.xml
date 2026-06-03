@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerReturn" id="{293eb828-81aa-43bd-989c-12bed21b53d6}">
+		<property name="note">
+			<value>A return track to add reverb to the music events.
+
+Is activated using the "BossStunEffect" snapshot.</value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>

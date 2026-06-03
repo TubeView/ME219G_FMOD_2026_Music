@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{0d335651-a3db-45ca-a479-4e6c06008902}">
+		<property name="note">
+			<value>A sub-group containing the sound event for when the player attacks.</value>
+		</property>
 		<property name="color">
 			<value>Green</value>
 		</property>

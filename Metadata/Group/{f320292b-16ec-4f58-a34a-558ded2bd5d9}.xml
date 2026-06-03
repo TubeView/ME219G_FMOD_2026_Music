@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{f320292b-16ec-4f58-a34a-558ded2bd5d9}">
+		<property name="note">
+			<value>A groups containing all event related to the player character.</value>
+		</property>
 		<property name="color">
 			<value>Green</value>
 		</property>

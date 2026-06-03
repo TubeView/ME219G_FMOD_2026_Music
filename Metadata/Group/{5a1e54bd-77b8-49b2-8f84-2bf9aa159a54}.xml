@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{5a1e54bd-77b8-49b2-8f84-2bf9aa159a54}">
+		<property name="note">
+			<value>A sub-group containing all sound events for the outdoor area (zone 1-2 and most of zone 3).</value>
+		</property>
 		<property name="color">
 			<value>Blue</value>
 		</property>

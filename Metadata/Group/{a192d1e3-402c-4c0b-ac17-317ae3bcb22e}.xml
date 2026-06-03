@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{a192d1e3-402c-4c0b-ac17-317ae3bcb22e}">
+		<property name="note">
+			<value>A sub-group containing the sound event for when the player moves around.</value>
+		</property>
 		<property name="color">
 			<value>Green</value>
 		</property>

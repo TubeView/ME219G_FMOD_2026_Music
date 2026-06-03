@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{ece86966-18ea-4b88-8518-0dd006d4b09a}">
+		<property name="note">
+			<value>A sub-group for the music event for the stinger.</value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{1e42a625-1b2f-4f1e-8360-50a25c60ca99}">
+		<property name="note">
+			<value>A sub-group containing all sound events for the indoor cave area (zone 4 and parts of zone 3).</value>
+		</property>
 		<property name="color">
 			<value>Blue</value>
 		</property>

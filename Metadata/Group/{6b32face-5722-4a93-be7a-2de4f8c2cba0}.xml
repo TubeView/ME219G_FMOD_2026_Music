@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{6b32face-5722-4a93-be7a-2de4f8c2cba0}">
+		<property name="note">
+			<value>A sub-group containing the enemy sound events for the Spitter.</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>

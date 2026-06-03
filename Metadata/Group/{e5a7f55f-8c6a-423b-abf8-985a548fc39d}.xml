@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{e5a7f55f-8c6a-423b-abf8-985a548fc39d}">
+		<property name="note">
+			<value>A sub-group containing the events for acid pools.</value>
+		</property>
 		<property name="color">
 			<value>Blue</value>
 		</property>

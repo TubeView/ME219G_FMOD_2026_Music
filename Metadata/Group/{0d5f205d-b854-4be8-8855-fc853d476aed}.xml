@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{0d5f205d-b854-4be8-8855-fc853d476aed}">
+		<property name="note">
+			<value>A sub-group with all the enemy sound events for the Gunner.</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>

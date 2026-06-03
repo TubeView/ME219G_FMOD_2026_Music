@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{c312c946-f837-479f-ada6-4341b43e0118}">
+		<property name="note">
+			<value>A sub-group containing all the global ambiance events (ambiance manager and weather).</value>
+		</property>
 		<property name="color">
 			<value>Blue</value>
 		</property>

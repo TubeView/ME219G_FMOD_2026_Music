@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{b0ae3a94-708d-40c9-8a3e-1998e3b8093f}">
+		<property name="note">
+			<value>A subgroup containing the music event for the boss fight.</value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>

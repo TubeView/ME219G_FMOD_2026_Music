@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{0547fa2e-9229-42e7-946a-50a6f8305a8a}">
+		<property name="note">
+			<value>A subgroup containing the music events used for the game over screen.</value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>

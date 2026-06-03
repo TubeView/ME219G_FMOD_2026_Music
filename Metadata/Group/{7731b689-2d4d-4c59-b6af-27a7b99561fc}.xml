@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{7731b689-2d4d-4c59-b6af-27a7b99561fc}">
+		<property name="note">
+			<value>A group containing the enemy death event.</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>

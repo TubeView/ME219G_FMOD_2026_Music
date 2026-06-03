@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{7eae3d00-9934-4def-b283-ce8c4135968c}">
+		<property name="note">
+			<value>A sub-group containing all the sound events used for doors.</value>
+		</property>
 		<property name="color">
 			<value>Cyan</value>
 		</property>

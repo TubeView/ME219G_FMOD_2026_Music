@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{7ffe3d4a-6ff4-469f-9ac9-1f2cb5a9e320}">
+		<property name="note">
+			<value>A sub-group of a sub-group containing the music event for the underground (zone 4).</value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>
