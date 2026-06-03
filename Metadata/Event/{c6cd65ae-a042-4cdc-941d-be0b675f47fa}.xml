@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c6cd65ae-a042-4cdc-941d-be0b675f47fa}">
+		<property name="note">
+			<value>This is the event used for the choir stem in the "Underground_Zone_4" event. It is supposed to play when the player is in a area containing a large statue.
+
+The event does not have a single or multi instrumenting producing the music. It is receiving the signal instead from the "Underground_Zone_4" event by using a transceiver and receiving the signal from channel 2.
+
+The event is mainly empty, only containing the master track that is playing the choir through a transceiver.
+
+The event has one parameter, MusicDistance. It is a normalized distance parameter using the minimum (8) and max (12) distance of the master track's event macros. It has the values 0, which is the event macro's minimum distance and 1, which is the event macro's maximum distance.
+
+If the value is at or below the maximum amount of distance, the event starts. Then using automation in the parameter sheet, the volume gets increasinly louder the closer the player gets to the event, until the player reaches the minimum distance. If the player is closer to the event than the minimum amount of distance, the volume stays at the maximum as if the player was at the minimum amount of distance. I have also added a seek modulation to the </value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>

@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{bafa7730-5d84-46c1-b914-3bc2bfb427ac}">
+		<property name="note">
+			<value>This is the event for the music in zone 4.
+
+This event uses vertical layering for it's progression. With stems fading in one after another based on of how far within zone 4 the player has come.
+
+The event also contains a loop region that makes the song continue and loop, using a transition timeline to make it sound as good and smooth as possible.
+
+The event has two parameters, UndergroundZoneProgression and Combat.
+
+UndergroundZoneProgression is a local continuous parameter with values between 0-3, controlling which stems should be played. Using automation in the parameter sheet, controlling the volume of the stems. The parameter also has seek modulation set to 0.45/s, which makes the stems fade in and out smoothly.
+0: The piano is the only stem playing, the player has just entered the underground area. It is mean't to create a empty feeling together with the sound of the ambiance of the cave.
+1: The flute stem fades in as the player activates the first switch in the beginning of the zone. It is mean't to create a feeling of discovery and interest by using the switch and unlocking a new area.
+2: The harp (and melody) stem fades in when the player successfully activates the second switch, opening the door to the main area of the zone.
+3: The lead stem fades in after the last block hits the bridge switch and splashed down in the acid pool below, unlocking the path to the zone's key and exit.
+
+Combat is a global continuous parameter with the values 0 and 1. It controlls the combat stem, which is a seperate pad stem that plays when a enemy notices and fights the player. It also has a seek modulation at 0.40/s so that the seem fades in and out smoothly when a player encounters an enemy.
+0: No enemys is currently noticing the player
+1: A minimum of one enemy is noticing the player, starting a beat indicating that the player has initiated a fight with a enemy.
+After the enemy has been defeated the parameter value is set back to 0 with the "AudioManager" script, which fades out the beat again.
+
+There is also two tracks in this event for a cello and a choir, they are however always inactivated in this event. However, their signal is however being transmitted from the tracks using transceivers, transmitting the  The signal is then received by another transceiver in the "Fog_Flute" event.</value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>

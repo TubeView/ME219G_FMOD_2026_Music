@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{b9764851-4778-4c53-9828-df5ec5e67309}">
+		<property name="note">
+			<value>This is the event used for the flute stem in the "Outside_Zone_1-3" event. It is supposed to play when the player is standing in a fog filled area in zone 2 or 3.
+
+The event does not have a single or multi instrumenting producing the music. It is receiving the signal instead from the "Outside_Zone_1-3" event by using a transceiver and receiving the signal from channel 1.
+
+The event has one track for a command instrument that stops the flute when the player exits the foggy area.
+
+The event starts with having the same tempo and BPM as the original event transmitting the signal. The playback enters then a loop where the flute will play as if it was playing in the original event, following chords and tempo. It also has a transition region that using parameter values (FluteVolume) will transition the playback to the destination marker named "End". Where it will immediately stop the event and the flute form playing.
+
+The event has one parameter, FluteVolume. It is a local continuous parameter with the values 0 and 1. It controls the volume of the flute as well as when the event should stop. It also has a seek modulation of 1.00/s to make the flute fade in and out smoothly when the player enters or leaves a foggy area.
+0: The flute is not actively playing (or should stop playing if it is) as the player is not currently standing in a foggy area.
+1: The flute stem begins to play as the player stands in a foggy area.
+When the parameter value is changed back to 0 after being on 1, there is still about one second of delay, due to the seek modulation before the event transitions to the destination marker and stopping the event. The volume is steadily decreasing during that delay with the seek speed. If a player were to leave the foggy area but return within that one second, the value of the parameter will be set back to 1 before the event ends. Which causes the seek speed and volume to start increasing again, avoiding the event from stopping.</value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>

@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a50891c4-6958-4f9e-9752-be05f98fd6ff}">
+		<property name="note">
+			<value>This is the event used for the cello stem in the "Underground_Zone_4" event. It is supposed to play when the player is close to a smaller statue at the beginning of the main part of zone 4.
+
+The event does not have a single or multi instrumenting producing the music. It is receiving the signal instead from the "Underground_Zone_4" event by using a transceiver and receiving the signal from channel 3.
+
+The event is mainly empty, only containing the master track that is playing the cello by the event having a transceiver.
+
+The event has one parameter, MusicDistance. It is a normalized distance parameter using the minimum (6) and max (10) distance of the event macros. It has the values 0, which is the event macro's minimum distance and 1, which is the event macro's maximum distance.
+
+If the value is at or below the maximum amount of distance, the event starts. Then using automation in the parameter sheet, the volume gets increasinly louder the closer the player gets to the event, until the player reaches the minimum distance. If the player is closer to the event than the minimum amount of distance, the volume stays at the maximum as if the player was at the minimum amount of distance. I have also added a seek modulation to the parameter with a value of 0.60/s so the fade in and out of the choir stays within a certain range and dosen't fade to quickly. Leading to a more smooth fade in and out, even if the player were to travel at a faster speed.</value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>
