@@ -21,7 +21,9 @@ Combat is a global continuous parameter with the values 0 and 1. It controlls th
 1: A minimum of one enemy is noticing the player, starting a beat indicating that the player has initiated a fight with a enemy.
 After the enemy has been defeated the parameter value is set back to 0 with the "AudioManager" script, which fades out the beat again.
 
-There is also a track in this event for a flute, it is however always inactivated in this event. It's signal is however being transmitted from the track via a transcie</value>
+There is also a track in this event for a flute, it is however always inactivated in this event. It's signal is however being transmitted from the track via a transceiver to the first channel. The signal is then received by another transceiver in the "Fog_Flute" event.
+
+The music has the tempo of 65 BPM and a time signature of 3/4. I chosse an odd time signature as I think it might result in a feeling of uncertainty and a feeling that something is odd about the planet.</value>
 		</property>
 		<property name="color">
 			<value>Purple</value>
@@ -966,9 +968,6 @@ There is also a track in this event for a flute, it is however always inactivate
 		</property>
 	</object>
 	<object class="TransceiverEffect" id="{16c00a8c-df96-4261-998d-aeb9bf5cbd4a}">
-		<property name="transmitMode">
-			<value>true</value>
-		</property>
 		<property name="channel">
 			<value>1</value>
 		</property>

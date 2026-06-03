@@ -21,7 +21,9 @@ Combat is a global continuous parameter with the values 0 and 1. It controlls th
 1: A minimum of one enemy is noticing the player, starting a beat indicating that the player has initiated a fight with a enemy.
 After the enemy has been defeated the parameter value is set back to 0 with the "AudioManager" script, which fades out the beat again.
 
-There is also two tracks in this event for a cello and a choir, they are however always inactivated in this event. However, their signal is however being transmitted from the tracks using transceivers, transmitting the  The signal is then received by another transceiver in the "Fog_Flute" event.</value>
+There is also two tracks in this event for a choir and a cello, they are however always inactivated in this event. However, their signal is however being transmitted from the tracks using transceivers, transmitting the choir to the second channel and the cello to the third channel. The signal is then received by another transceiver in each of their own events called "Underground_Choir" and "Underground_Cello".
+
+The music has the tempo of 65 BPM and a time signature of 5/4. The music is supposed to be played after the music in the "Outside_Zone_1-3" event as the player enter zone 4. By changing the time signature from 3/4 in the event for zones 1-3 to 5/4 in this event but keep the odd time signature, I hope it helps to keep the earlier feeling of uncertainty while still having a change in the music during an change in environment.</value>
 		</property>
 		<property name="color">
 			<value>Purple</value>
