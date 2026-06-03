@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{09754fc6-15b1-4fab-b4e7-bebbcad28bef}">
+		<property name="note">
+			<value>This is the event for the music in zone 1-3.
+
+This event uses vertical layering for it's progression. With stems fading in one after another based on the zone or place the player is currently at.
+
+The event also contains a loop region that makes the song continue and loop, using a transition timeline to make it sound as good and smooth as possible.
+
+The event has two parameters, ZoneProgression and Combat.
+
+ZoneProgression is a local continuous parameter with values between 0-3, controlling which stems should be played. Using automation in the parameter sheet, controlling the volume of the stems. The parameter also has seek modulation set to 0.75/s, which makes the stems fade in and out smoothly.
+0: The piano is the only stem playing as the player spawn in zone 1, it is the beginning of the game. It is mean't to create a calm feeling, as there is not much happening currectly in the game.
+1: The lead stem fades in as the players enters zone 2. The area seems to have a lot of history connected to it. Much of the structures and artifacts are however destroyed or fallen down, hinting on the place possibly being deserted. A large locked door is also found there.
+2: The harp stem fades in when the player enters zone 3, the harp is also carrying the melody of the music. The player enters a more lively, but seemingly more dangerous area, with acid pools and unknown creatures wandering around.
+3: The drums stem fades in as the player enters a small cave inside zone 3. The volume of the lead stem is also decreased with 5 dB to give the drums more space. The cave is empty, but still a little eerie when inside.
+
+Combat is a global continuous parameter with the values 0 and 1. It controlls the combat stem, which is a seperate pad stem that plays when a enemy notices and fights the player. It also has a seek modulation at 0.40/s so that the seem fades in and out smoothly when a player encounters an enemy.
+0: No enemys is currently noticing the player
+1: A minimum of one enemy is noticing the player, starting a beat indicating that the player has initiated a fight with a enemy.
+After the enemy has been defeated the parameter value is set back to 0 with the "AudioManager" script, which fades out the beat again.
+
+There is also a track in this event for a flute, it is however always inactivated in this event. It's signal is however being transmitted from the track via a transcie</value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>
@@ -453,7 +475,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{b85f1596-f70c-4442-bb0e-f8bd5323e6aa}">
 		<property name="name">
-			<value>Combat (Drums)</value>
+			<value>Combat (Pad)</value>
 		</property>
 		<relationship name="automators">
 			<destination>{0813c9f1-7808-498e-af1c-31c84cd0744f}</destination>
@@ -1092,7 +1114,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-3</value>
 		</property>
 	</object>
 </objects>

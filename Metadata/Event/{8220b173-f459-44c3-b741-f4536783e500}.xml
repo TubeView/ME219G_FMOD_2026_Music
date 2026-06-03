@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{8220b173-f459-44c3-b741-f4536783e500}">
+		<property name="note">
+			<value>This is the event for the stinger for when a player picks up a key.
+
+It consists of two tracks, one for the piano and the melody of the stinger and one for the snapshot (KeyPickUpStinger) that should be played while the stinger is playing.
+
+The piano track contains a multi instrument randomly playing one of three types of stingers. All stingers is a simple melody of the notes of a D minor chord before a full D minor chord. The stingers are in three different octaves however, which makes a small variety in the possible stingers.
+
+When the event plays it starts with fading in the snapshot named "KeyPickUpStinger" before playing the stinger. The stinger begins fading out with the snapshot following soon after.</value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>
