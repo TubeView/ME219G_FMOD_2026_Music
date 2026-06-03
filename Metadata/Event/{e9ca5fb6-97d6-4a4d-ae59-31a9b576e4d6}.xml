@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{e9ca5fb6-97d6-4a4d-ae59-31a9b576e4d6}">
+		<property name="note">
+			<value>This event starts the main game over event.
+
+The event only has one track containing a command instrument that immediately starts the "Game_Over_Loop" event when it is played.</value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>

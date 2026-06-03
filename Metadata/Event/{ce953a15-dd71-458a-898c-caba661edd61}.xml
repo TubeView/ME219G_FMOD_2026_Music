@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ce953a15-dd71-458a-898c-caba661edd61}">
+		<property name="note">
+			<value>This is the main music event for the game over sequence of the game. It is however not referenced in the audio manager in Unity. It is instead referenced by the other two events used for the sequence, which are referenced in the audio manager.
+
+The event contains two tracks, one for the music and one for the snapshot that is active during the event. 
+
+It uses a loop region to keep the music activily playing and looping while the sequence is ongoing. While it also has a transition region that transitions the playback to a destination marker named "End" when the event is about to stop.
+
+The event has one parameter called "EndGameOver", that controlls the transition region. It is a global discrete parameter with the value 0 and 1.
+0: The event starts by being referenced by the "Game_Over_Start" event. The music begins playing in the loop.
+1: The parameter is set by the "Game_Over_End" event. The transition region immediately puts the playback at the destination marker where the music fades out while the effect of the snapshot fade out.
+
+</value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>

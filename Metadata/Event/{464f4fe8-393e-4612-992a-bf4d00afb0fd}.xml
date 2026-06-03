@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{464f4fe8-393e-4612-992a-bf4d00afb0fd}">
+		<property name="note">
+			<value>Note: I have added a gain effect here and lowered the volume as I felt like the ranged attack event was much louder than the melee attack event. As I want to keep both attack event in the same mixer sub-group, I felt like this was the best choice.</value>
+		</property>
 		<property name="color">
 			<value>Green</value>
 		</property>
@@ -487,7 +490,7 @@
 	<object class="MixerBusFader" id="{3d02093c-1224-4b2a-86e3-2cacb66e69f5}" />
 	<object class="GainEffect" id="{8112a5f3-689e-4ddc-a9e8-038bcafd78c9}">
 		<property name="gain">
-			<value>-5.5</value>
+			<value>-4.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{2d0ad026-3c40-49dd-8de1-d250a25f49d6}" />

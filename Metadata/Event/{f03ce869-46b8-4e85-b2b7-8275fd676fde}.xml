@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f03ce869-46b8-4e85-b2b7-8275fd676fde}">
+		<property name="note">
+			<value>This is the music event for the boss fight.
+
+The event uses mainly horizontal layering for progression, based on the current phase of the boss. For that I use loop regions that control the music for that specific boss phase. I also use transition regions when transitioning between boss phases based on parameter values. The transitions have their destination set to either another loop region for the next boss phase or a destination marker named after the the new boss phase.
+
+The event contains two parameters, BossPhase and IsStunned.
+
+BossPhase is a local discrete parameters with values between 1-4, based on the all the boss phases. The parameter controls the transitions between all the boss phases and when it is defeated.
+1: Initial value, the boss fight has started and the music has begun. After a short intro the playback gets stuck in the first loop named "Phase 1".
+2: The second phase begins, the playback transitions to the "Phase 2" loop by the transition region in the first loop. It dosen't have a transition timeline unlike the rest because of the music not sounding good when trying to fade in and out stems. However, a snapshot (BossStunEffect) helps to cover the transition because of the way it works.
+3: The third phase begins, the music transitions using the transition region to the destination marker named "Phase 3". Where the majority of the music fades out to some drum beats before a big change in the music happens. It starts with a intro without melody before it gets stuck in the "Phase 3" loop.
+4: The boss gets defeated. This transition is not quantized and happens the moment the boss dies. Because of that I added a non-linear sound that blends the transition using pitch automation together with other ongoing sounds to smoothly fade in the last piece of music, finally ending right after the boss has disappeared and right before the door has fully opened.
+
+IsStunned is a local continuous parameter with values between 0 and 1. It controls when the stun snapshot named "BossStunEffect" should be active. The parameter is controlled using the "BossManager" script in Unity.
+0: The boss is not stunned as it's shield is not broken.
+1: The shield of the boss gets destroyed and the snapshot is played.
+The para
+
+The music has a tempo of 100 BPM and a time signature of 4/4. It has a higher tempo compared to the rest of the music because this is supposed to be the main event of the game. It is also a lot harder and more intense than any other part of the game, which makes the change in music fit. Since the boss is a working robot compared to the earlier statues it feels natural to introduce more electric instruments to the mix. The quietness of zone 5 before the boss starts adds to the expectation of something big being about to happen, which I hope the music helps to bring out when the boss finally appears.
+
+The boss has a total of three phases, which made it the perfect opportunity to use horizontal layering. The track however stills contains multiple stems (of which all are always active) because of issues I had with clicking sounds when transitioning through phases. Likely due to some instruments having built in reverb that would leak through when transitioning. That is also the reason why I had to cut some of the stems in different places.</value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>

@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f7bb828c-d745-47db-a271-c5cda355e666}">
+		<property name="note">
+			<value>This is the event that ends the main game over event.
+
+The event only has one track, containing two command instruments that change the variable of the global "EndGameOver" parameter. The command instrument in the start of the event sets the parameter to 1 when played. Which affects the transition region in the "Game_Over_Loop" event, transitioning the playback to the "End" destination marker, where the event ends shortly after. Before reaching the second command instrument, which changes the value of the parameter back to 0. Resetting the event and making it able to restart.</value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>
