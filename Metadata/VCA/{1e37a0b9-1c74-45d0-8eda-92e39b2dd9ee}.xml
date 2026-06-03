@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerVCA" id="{1e37a0b9-1c74-45d0-8eda-92e39b2dd9ee}">
+		<property name="note">
+			<value>VCA for the master bus.
+
+This includes all groups and sub-groups in the mixer.
+
+This VCA can be controlled inside the Unity project because of it being reference on the audio slider for the master volume.</value>
+		</property>
 		<property name="name">
 			<value>Master</value>
 		</property>

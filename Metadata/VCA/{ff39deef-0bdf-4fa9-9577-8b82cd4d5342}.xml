@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerVCA" id="{ff39deef-0bdf-4fa9-9577-8b82cd4d5342}">
+		<property name="note">
+			<value>VCA for all the SFX buses.
+
+This includes all bigger groups and all the sub-groups within the bigger groups, except for the music and master bus.
+
+This VCA can be controlled inside the Unity project because of it being reference on the audio slider for the SFX volume.</value>
+		</property>
 		<property name="name">
 			<value>SFX</value>
 		</property>

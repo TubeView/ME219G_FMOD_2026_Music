@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerVCA" id="{fc27ffc1-5dd9-470c-8af9-fb270970e721}">
+		<property name="note">
+			<value>VCA for the music group bus.
+
+This includes main music group and all the sub-groups within the main bus.
+
+This VCA can be controlled inside the Unity project because of it being reference on the audio slider for the music volume.</value>
+		</property>
 		<property name="name">
 			<value>Music</value>
 		</property>

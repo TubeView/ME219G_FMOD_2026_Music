@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{63720410-e6d9-4197-97d2-4f3a2d8ba4c6}">
+		<property name="note" />
 		<property name="color">
 			<value>Purple</value>
 		</property>
