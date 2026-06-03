@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Snapshot" id="{177c9315-aa65-47a6-b7c6-aa5b4ed156c2}">
+		<property name="note">
+			<value>The snapused used for the main menu.
+
+It is activated by the "Main_Menu" event.
+
+The snapshot changes volume of the ambiance group with -9 dB.</value>
+		</property>
 		<property name="name">
 			<value>StartMenu</value>
 		</property>
@@ -21,13 +28,9 @@
 		</relationship>
 		<relationship name="snapshotProperties">
 			<destination>{5647bf66-031e-4959-b7e2-094356591cf2}</destination>
-			<destination>{aabfccba-6ca8-45fd-a9da-dc646d39d316}</destination>
-			<destination>{9e9ef4fe-2ec8-4def-b43c-c28bde7e6a0e}</destination>
 		</relationship>
 		<relationship name="snapshotTracks">
 			<destination>{81130706-e5b5-4eb6-98da-4382e8db980b}</destination>
-			<destination>{8ed0302a-a8e8-4964-bdd8-26ffa061268c}</destination>
-			<destination>{cb3e0433-c460-419b-b9d3-c64a3454d899}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{8a237753-f345-442c-ad6a-e386cdd1dbe1}" />
@@ -45,41 +48,9 @@
 			<destination>{43163830-abf1-4785-8f5c-3fc8fad82bd8}</destination>
 		</relationship>
 	</object>
-	<object class="SnapshotProperty" id="{aabfccba-6ca8-45fd-a9da-dc646d39d316}">
-		<property name="propertyName">
-			<value>volume</value>
-		</property>
-		<property name="value">
-			<value>-4</value>
-		</property>
-		<relationship name="automatableObject">
-			<destination>{63720410-e6d9-4197-97d2-4f3a2d8ba4c6}</destination>
-		</relationship>
-	</object>
-	<object class="SnapshotProperty" id="{9e9ef4fe-2ec8-4def-b43c-c28bde7e6a0e}">
-		<property name="propertyName">
-			<value>volume</value>
-		</property>
-		<property name="value">
-			<value>-5</value>
-		</property>
-		<relationship name="automatableObject">
-			<destination>{91197879-c494-491a-960a-db9f9cfbdc61}</destination>
-		</relationship>
-	</object>
 	<object class="SnapshotTrack" id="{81130706-e5b5-4eb6-98da-4382e8db980b}">
 		<relationship name="mixerStrip">
 			<destination>{43163830-abf1-4785-8f5c-3fc8fad82bd8}</destination>
-		</relationship>
-	</object>
-	<object class="SnapshotTrack" id="{8ed0302a-a8e8-4964-bdd8-26ffa061268c}">
-		<relationship name="mixerStrip">
-			<destination>{63720410-e6d9-4197-97d2-4f3a2d8ba4c6}</destination>
-		</relationship>
-	</object>
-	<object class="SnapshotTrack" id="{cb3e0433-c460-419b-b9d3-c64a3454d899}">
-		<relationship name="mixerStrip">
-			<destination>{91197879-c494-491a-960a-db9f9cfbdc61}</destination>
 		</relationship>
 	</object>
 </objects>

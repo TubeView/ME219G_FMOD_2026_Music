@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Snapshot" id="{e4e96478-31ca-41d0-97f8-8777b900da92}">
+		<property name="note">
+			<value>The snapused used for when the boss gets stunned when it's shield gets destroyed.
+
+It is activated by the "IsStunned" parameter inside the "Boss_Fight" event.
+
+The snapshot changes the volume of the BossFight sub-group with -5 dB while changing the pitch with -1 semi-tone. While enabling the volume of the MusicReverb return track.</value>
+		</property>
 		<property name="name">
 			<value>BossStunEffect</value>
 		</property>
@@ -23,8 +30,6 @@
 			<destination>{93b7901f-53b8-419c-9639-a9787e5a6902}</destination>
 			<destination>{4593afb9-d424-42ea-9d0c-2e2fc900be51}</destination>
 			<destination>{c1d9fe65-adaa-47e6-95e9-a21eac45bb83}</destination>
-			<destination>{84d65d5c-03cd-4753-abd2-cae63f42193c}</destination>
-			<destination>{7bdfa293-27e3-46b0-b4af-998f50efbb2d}</destination>
 			<destination>{92517d2b-30d6-4347-8999-8fb41f1005c5}</destination>
 		</relationship>
 		<relationship name="snapshotTracks">
@@ -67,28 +72,6 @@
 		</property>
 		<relationship name="automatableObject">
 			<destination>{293eb828-81aa-43bd-989c-12bed21b53d6}</destination>
-		</relationship>
-	</object>
-	<object class="SnapshotProperty" id="{84d65d5c-03cd-4753-abd2-cae63f42193c}">
-		<property name="propertyName">
-			<value>wetLevel</value>
-		</property>
-		<property name="value">
-			<value>-7</value>
-		</property>
-		<relationship name="automatableObject">
-			<destination>{2c1e09d1-7d3d-4ab5-8c18-94a5bb46e225}</destination>
-		</relationship>
-	</object>
-	<object class="SnapshotProperty" id="{7bdfa293-27e3-46b0-b4af-998f50efbb2d}">
-		<property name="propertyName">
-			<value>dryLevel</value>
-		</property>
-		<property name="value">
-			<value>-80</value>
-		</property>
-		<relationship name="automatableObject">
-			<destination>{2c1e09d1-7d3d-4ab5-8c18-94a5bb46e225}</destination>
 		</relationship>
 	</object>
 	<object class="SnapshotProperty" id="{92517d2b-30d6-4347-8999-8fb41f1005c5}">

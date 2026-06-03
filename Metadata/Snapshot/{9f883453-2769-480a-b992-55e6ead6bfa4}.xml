@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Snapshot" id="{9f883453-2769-480a-b992-55e6ead6bfa4}">
+		<property name="note">
+			<value>The snapused used for the stinger for when a player picks up a key.
+
+It is activated by the "Stinger_KeyPickUp" event.
+
+The snapshot disables the volume of the ZoneMusic sub-group.</value>
+		</property>
 		<property name="name">
 			<value>KeyPickUpStinger</value>
 		</property>

@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Snapshot" id="{efe482b2-dcac-45ca-baf8-28b886f800be}">
+		<property name="note">
+			<value>The snapused used for when the player dies and enters the game over screen.
+
+It is activated by the "Game_Over_Loop" event.
+
+The snapshot disables the volume of the ZoneMusic and BossFight sub-groups, while enable the volume of the GameOver sub-group.</value>
+		</property>
 		<property name="name">
 			<value>GameOver</value>
 		</property>
