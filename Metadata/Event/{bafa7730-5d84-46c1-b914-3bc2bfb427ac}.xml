@@ -1175,7 +1175,7 @@ The music has the tempo of 65 BPM and a time signature of 5/4. The music is supp
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-2</value>
 		</property>
 	</object>
 </objects>
