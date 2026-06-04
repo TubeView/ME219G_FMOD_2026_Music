@@ -968,7 +968,13 @@ The music has the tempo of 65 BPM and a time signature of 3/4. I chosse an odd t
 		</property>
 	</object>
 	<object class="TransceiverEffect" id="{16c00a8c-df96-4261-998d-aeb9bf5cbd4a}">
+		<property name="transmitMode">
+			<value>true</value>
+		</property>
 		<property name="channel">
+			<value>1</value>
+		</property>
+		<property name="speakerMode">
 			<value>1</value>
 		</property>
 	</object>
@@ -1017,7 +1023,7 @@ The music has the tempo of 65 BPM and a time signature of 3/4. I chosse an odd t
 		</relationship>
 		<relationship name="automationPoints">
 			<destination>{2834e41d-578b-4190-a94c-2f2f894a40e8}</destination>
-			<destination>{ded8f91d-aa37-484a-91a8-eef58c21d603}</destination>
+			<destination>{f7315ef7-9102-48e0-ab1e-6234ef6fe74b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{d6368976-2011-45ee-b32c-14b205c2fdd7}" />
@@ -1108,12 +1114,12 @@ The music has the tempo of 65 BPM and a time signature of 3/4. I chosse an odd t
 			<value>-0.109711193</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{ded8f91d-aa37-484a-91a8-eef58c21d603}">
+	<object class="AutomationPoint" id="{f7315ef7-9102-48e0-ab1e-6234ef6fe74b}">
 		<property name="position">
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-3</value>
+			<value>-2</value>
 		</property>
 	</object>
 </objects>

@@ -527,7 +527,7 @@ The music has the tempo of 65 BPM and a time signature of 5/4. The music is supp
 	</object>
 	<object class="EventMixerGroup" id="{63ad4708-6adc-41db-990f-86d154365f70}">
 		<property name="name">
-			<value>Combat (Drums)</value>
+			<value>Combat (Pads)</value>
 		</property>
 		<relationship name="automators">
 			<destination>{3d7b8a2f-509d-4c39-b82c-2169bd271540}</destination>
